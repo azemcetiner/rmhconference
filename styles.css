@@ -1,5 +1,5 @@
 h1 {
-    font-size: 11vw;
+    font-size: 9vw;
     /* added font family to all paragraphs */
     font-family: 'PT Sans', sans-serif;
 }
@@ -10,12 +10,12 @@ h2 {
 }
 
 h3 {
-    font-size: 9vw;
+    font-size: 5vw;
     /* added font family to all paragraphs */
     font-family: 'PT Sans', sans-serif;
 }
 p {
-    font-size: 5vw;
+    font-size: 4vw;
     /* added font family to all paragraphs */
     font-family: 'Open Sans', sans-serif;
 }
@@ -282,8 +282,11 @@ text-align: center;
 .Email-Form {
     text-align: center;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 500px) {
 
+    .Speaker-image {
+        width: 30%
+    }
     .main-banner {
         padding-top: 52px;
         width: 75%;
@@ -308,24 +311,101 @@ text-align: center;
     .Conference-Advisory {
             height: 100vh;
     }
+
 }
+/* for iphone 5 in landscape */
+@media only screen and (min-width: 500px) {
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-
+    .Heading {
+        padding-top: 7vh
+    }
     .main-banner {
         padding-top: 52px;
         width: 75%;
     }
+    h1 {
+        font-size: 5vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    h2 {
+        font-size: 4vw;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    h3 {
+        font-size: 3vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
+    }
+    p {
+        font-size: 2.5vw;
+        /* added font family to all paragraphs */
+        font-family: 'Open Sans', sans-serif;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main-banner {
+        padding-top: 52px;
+        width: 75%;
+    }
+    h1 {
+        font-size: 5vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    h2 {
+        font-size: 3vw;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    h3 {
+        font-size: 2vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
+    }
+    p {
+        font-size: 1vw;
+        /* added font family to all paragraphs */
+        font-family: 'Open Sans', sans-serif;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 700px) {
     .Speaker {
         width: 50%;
         float: left;
     }
+
+    h1 {
+        font-size: 9vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    h2 {
+        font-size: 7vw;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    h3 {
+        font-size: 4vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
+    }
+    p {
+        font-size: 3vw;
+        /* added font family to all paragraphs */
+        font-family: 'Open Sans', sans-serif;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -335,20 +415,6 @@ text-align: center;
         float: left;
     }
 
-    h1 {
-        font-size: 9vw;
-    }
-
-    h2 {
-        font-size: 5vw;
-    }
-
-    h3 {
-        font-size: 7vw;
-    }
-    p {
-        font-size: 3vw;
-    }
 
     .Conference-Location {
         height: 50vh;
@@ -362,22 +428,29 @@ text-align: center;
         float: left;
     }
 
+    .Conference-Location {
+        height: 50vh;
+    }
+
     h1 {
-        font-size: 9vw;
+        font-size: 7vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
     }
 
     h2 {
         font-size: 5vw;
+        font-family: 'PT Sans', sans-serif;
     }
 
     h3 {
-        font-size: 7vw;
+        font-size: 4vw;
+        /* added font family to all paragraphs */
+        font-family: 'PT Sans', sans-serif;
     }
     p {
-        font-size: 3vw;
-    }
-
-    .Conference-Location {
-        height: 50vh;
+        font-size: 2vw;
+        /* added font family to all paragraphs */
+        font-family: 'Open Sans', sans-serif;
     }
 }
