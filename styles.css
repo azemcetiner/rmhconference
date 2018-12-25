@@ -1,18 +1,21 @@
 h1 {
-    font-size: 5em;
-    font-weight: 2em;
+    font-size: 11vw;
     /* added font family to all paragraphs */
     font-family: 'PT Sans', sans-serif;
 }
 
+h2 {
+    font-size: 7vw;
+    font-family: 'PT Sans', sans-serif;
+}
+
 h3 {
-    font-size: 2em;
-    font-weight: 1em;
+    font-size: 9vw;
     /* added font family to all paragraphs */
     font-family: 'PT Sans', sans-serif;
 }
 p {
-    font-size: 2em;
+    font-size: 5vw;
     /* added font family to all paragraphs */
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,7 +24,6 @@ p {
     position:fixed;
     width:100%;
     z-index:1000;
-    position: fixed;
 }
 
 .nav-bar-logo {
@@ -82,7 +84,7 @@ p {
     justify-content: center;
     align-items: center;
 
-    height: 40vh;
+    height: 50vh;
     background-color: rgba(146, 1, 26,0.8);
     width: 100%;
     /* added padding to this div*/
@@ -97,7 +99,7 @@ p {
     align-items: center;
 
     height: 40vh;
-    background-color: rgba(205, 151, 89,0.8);
+    background-color: rgba(146, 1, 26,0.8);
     width: 100%;
     /* added padding to this div*/
     padding-left: 30px;
@@ -117,7 +119,7 @@ p {
 
 .Conference-Attend {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -138,12 +140,28 @@ p {
 .Speakers {
     text-align: center;
     /* added padding to this div*/
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
+.Speaker {
+    width: 100%
+}
+
+.Speaker-image {
+    border-radius: 11vw;
+    width: 50%;
+}
+
+.Speaker-name {
+
+}
+
+.Speaker-bio {
+    text-align: left;
+    margin: 4vw;
+    padding-bottom: 5vh;
+}
 .Poster {
-    background-color: rgba(130,1,25,0.7);
+    background-color:  rgba(146, 1, 26,0.8);
     height: 100vh;
     text-align: center;
     background-image: url("./photos/conference-poster.png");
@@ -265,70 +283,37 @@ text-align: center;
     text-align: center;
 }
 @media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 4em;
-        font-weight: 1.5em;
-    }
 
-    p {
-        font-size: 1em
-    }
-    .About {
-    }
-    .Conference-About {
-    }
     .main-banner {
         padding-top: 52px;
         width: 75%;
     }
-    h3 {
-        font-size: 2em
-    }
 
     .logo {
-        font-size: .7em;
         width: 15%
     }
     .Conference-Advisory {
             height: 180vh;
-        }
     }
+
 }
 
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 4em;
-        font-weight: 1.5em;
-    }
 
-    p {
-        font-size: 1em
-    }
-    .About {
-    }
-    .Conference-About {
-    }
     .main-banner {
         padding-top: 52px;
         width: 75%;
     }
-    h3 {
-        font-size: 2em
-    }
 
-    .logo {
-        font-size: 1.5em
-    }
     .Conference-Advisory {
             height: 100vh;
-        }
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .About {
-    }
+
+
     .main-banner {
         padding-top: 52px;
         width: 75%;
