@@ -322,12 +322,62 @@ text-align: center;
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .Speaker {
+        width: 50%;
+        float: left;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .Speaker {
+        width: 50%;
+        float: left;
+    }
+
+    h1 {
+        font-size: 9vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    h3 {
+        font-size: 7vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+
+    .Conference-Location {
+        height: 50vh;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    .Speaker {
+        width: 50%;
+        float: left;
+    }
+
+    h1 {
+        font-size: 9vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+
+    h3 {
+        font-size: 7vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+
+    .Conference-Location {
+        height: 50vh;
+    }
 }
