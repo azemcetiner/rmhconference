@@ -161,7 +161,7 @@ p {
     padding-bottom: 5vh;
 }
 .Poster {
-    background-color:  rgba(146, 1, 26,0.8);
+    background-color:rgba(205, 151, 90,0.8);
     height: 100vh;
     text-align: center;
     background-image: url("./photos/conference-poster.png");
